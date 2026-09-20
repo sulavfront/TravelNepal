@@ -6,7 +6,7 @@ import {
 } from "react";
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -71,7 +71,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Navbar
           darkMode={darkMode}
@@ -138,7 +138,7 @@ function App() {
           />
         )}
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
